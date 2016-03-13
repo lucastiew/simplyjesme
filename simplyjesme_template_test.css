@@ -1352,6 +1352,9 @@ padding: 0px 20px;
     overflow: hidden;
 	z-index: 100;
 	background: #fff;
+    font-size: 0.8em;
+	line-height: 0;
+	color: #FA6900;
   }
   
   #related-posts .title {
@@ -1360,8 +1363,6 @@ padding: 0px 20px;
     margin: 0px 0px 15px;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-    font-size: 22px;
-    
   }
   /*
   #owl-demo {
