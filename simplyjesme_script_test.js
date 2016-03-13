@@ -165,9 +165,9 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 $(document).ready(function() {
   $("#owl-demo").owlCarousel({
     autoPlay: 3000,
-    items : 3,
-    itemsDesktop : [1200,3],
-    itemsDesktopSmall : [980,2],
+	items : 4,
+	itemsDesktop : [1199,3],
+	itemsDesktopSmall : [979,3]
     itemsMobile : [720,2]
   });
 });
