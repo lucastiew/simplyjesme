@@ -86,7 +86,7 @@ function printRelatedLabels_thumbs(e){
 	var n=0;
 	if(relatedTitles.length>0)
 		document.write('<div class="title"><h4>'+relatedpoststitle+"</h4></div>");
-	document.write('<div class="owl-carousel owl-theme" id="owl-demo"/>');
+	document.write('<div class="owl-carousel" id="owl-demo"/>');
 	while(n<relatedTitles.length&&n<20&&n<maxresults){
 		document.write('<div class="item"><a ');
 		if(n!=0)
@@ -121,7 +121,7 @@ $(document).ready(function() {
     items : 3,
     itemsDesktop : [1200,3],
     itemsDesktopSmall : [980,2],
-    itemsMobile : [480,1]
+    itemsMobile : [479,1]
   });
 });
 
