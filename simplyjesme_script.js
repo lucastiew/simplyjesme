@@ -16,6 +16,7 @@ $(document).ready(
     function(){
         $(".widget h2").wrapInner("<span/>");
 	}
+	setCopyrightYear();
 );
 	
 jQuery(document).ready(function($){
@@ -172,3 +173,9 @@ $(document).ready(function() {
 });
 
 $('.go-top').click(function(){$('.st-content').animate({scrollTop:0},'slow');$('html, body').animate({scrollTop:0},'slow');return false;});
+
+function setCopyrightYear() {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("yearOfCopyright").innerHTML = n;
+}
