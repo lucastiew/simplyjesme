@@ -119,6 +119,7 @@ $(document).ready(function() {
   $("#owl-demo").owlCarousel({
     autoPlay: 3000,
     items : 3,
+	pagination : false,
     itemsDesktop : [1200,3],
     itemsDesktopSmall : [980,2],
     itemsMobile : [479,1]
