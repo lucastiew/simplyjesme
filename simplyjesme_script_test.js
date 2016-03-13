@@ -134,7 +134,7 @@ function printRelatedLabels_thumbs(e){
 		document.write('<div class="title"><h4>'+relatedpoststitle+"</h4></div>");
 	document.write('<div class="owl-carousel owl-theme" id="owl-demo"/>');
 	while(n<relatedTitles.length&&n<20&&n<maxresults){
-		document.write('<div class="item-img"><a ');
+		document.write('<div class="item"><a ');
 		if(n!=0)
 			document.write("");
 		else document.write('"');
