@@ -1225,9 +1225,9 @@ border:none; -moz-box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.1) inset; -webkit-box-s
 }
 
 .firstload-background {
-	/* background: url(http://3.bp.blogspot.com/-839yKcnDZWc/VLDeDAOE7iI/AAAAAAAAAT8/ogrhghvBaCk/s1600/webpage_background_blue.png) repeat scroll 0 0 */ transparent;;
+	background: url(http://3.bp.blogspot.com/-839yKcnDZWc/VLDeDAOE7iI/AAAAAAAAAT8/ogrhghvBaCk/s1600/webpage_background_blue.png) repeat scroll 0 0  transparent;
 	/* cny background */
-	background: url(https://googledrive.com/host/0B45g7WaAdBI0ZVJaRlhmRmoyZ1k) repeat scroll 0 0 transparent;;
+	/* background: url(https://googledrive.com/host/0B45g7WaAdBI0ZVJaRlhmRmoyZ1k) repeat scroll 0 0 transparent; */
 	height: 100%;
 	left: 0;
 	position: fixed;
