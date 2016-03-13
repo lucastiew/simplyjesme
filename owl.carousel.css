@@ -69,3 +69,11 @@
   -ms-transform: translate3d(0,0,0);
 }
 
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
