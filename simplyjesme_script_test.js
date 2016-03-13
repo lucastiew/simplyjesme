@@ -167,7 +167,7 @@ $(document).ready(function() {
     items : 3,
     itemsDesktop : [1200,3],
     itemsDesktopSmall : [980,2],
-    itemsMobile : [480,1]
+    itemsMobile : [720,2]
   });
 });
 
