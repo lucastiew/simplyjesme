@@ -16,7 +16,6 @@ $(document).ready(
     function(){
         $(".widget h2").wrapInner("<span/>");
 	}
-	setCopyrightYear();
 );
 	
 jQuery(document).ready(function($){
