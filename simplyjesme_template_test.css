@@ -1341,85 +1341,29 @@ margin-top: 9px;
 #masthead.fixed-nav li > a:hover {
 color: #E0E4CC;
 }
-/*
- #related-posts #owl-demo {
-    overflow: visible;
-padding: 0px 20px;
-  }
-  */
-  #related-posts {
-    height: 320px;
-    overflow: hidden;
-	z-index: 100;
-	background: #fff;
-    font-size: 0.8em;
-	line-height: 0;
-	color: #FA6900;
-  }
-  
-  #related-posts .title {
-    background: none repeat scroll 0% 0% #FFF;
-    padding: 5px 20px;
-    margin: 0px 0px 15px;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-  }
-  /*
-  #owl-demo {
-    max-height: 233px;
-  }
-  .owl-wrapper-outer {
-    overflow: hidden;
-    max-height: 230px;
-  }
-  #related-posts .owl-controls.clickable {
-    position: relative;
-  }
-  .owl-wrapper {
-    position: relative;
-  }
-  .owl-item {
-    float: left;
-    padding: 0px 10px;
-    width: 222px !important;
-  }
-  .owl-item:first-child {
-    padding: 0px 10px 0px 0px;
-  }
-  .item-img {
-    position: relative;
-	text-align: center;
-	font-size:0.8em;
-	line-height:110%;
-  }
-    
-  #related-posts .owl-controls.clickable .owl-pagination {
-    position: absolute;
-    right: 0px;
-    top: -240px;
-  }
-  .owl-theme .owl-controls .owl-page {
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    margin: 5px 14px 5px -10px;
-    opacity: 0.5;
-    border-radius: 20px;
-    background: none repeat scroll 0% 0% #DDD;
-    cursor: pointer;
-  }
-  .owl-theme .owl-controls .owl-page.active, .owl-theme .owl-controls.clickable .owl-page:hover {
-    opacity: 1;
-    background: none repeat scroll 0% 0% #333;
-  }
-*/
-  #related-posts img {
-    background: url(&#39;http://1.bp.blogspot.com/-EpAZ7479vZU/U8q4-6oeF5I/AAAAAAAAB2w/mQFhf-xZRko/s1600/background.png&#39;) repeat scroll 0% 0% #fff;
-    display: table-cell;
-    text-align: center;
-    color: #EB005D;
-    font-size: 19px;
-  }
+
+#related-posts {
+height: 320px;
+overflow: hidden;
+z-index: 100;
+background: #fff;
+} 
+
+#related-posts .title {
+background: none repeat scroll 0% 0% #FFF;
+padding: 5px 20px;
+margin: 0px 0px 15px;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+
+#related-posts img {
+background: url(&#39;http://1.bp.blogspot.com/-EpAZ7479vZU/U8q4-6oeF5I/AAAAAAAAB2w/mQFhf-xZRko/s1600/background.png&#39;) repeat scroll 0% 0% #fff;
+display: table-cell;
+text-align: center;
+color: #EB005D;
+font-size: 19px;
+}
 
 div.meta1 p {
 padding: 10px 0;
