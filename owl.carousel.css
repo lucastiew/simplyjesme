@@ -71,11 +71,16 @@
 
 #owl-demo .item{
   margin: 3px;
+  text-align: center;
 }
 #owl-demo .item img{
   display: block;
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+#owl-demo .item .title {
+  font-size: 0.8em;
+  line-height: 0;
 }
 
