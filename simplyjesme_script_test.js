@@ -131,14 +131,15 @@ function printRelatedLabels_thumbs(e){
 	var r=Math.floor((relatedTitles.length-1)*Math.random());
 	var n=0;
 	if(relatedTitles.length>0)
-		document.write('<div class="title"><h4>'+relatedpoststitle+"</h4></div>");
-	document.write('<div class="carousel_related owl-carousel owl-theme" id="owl-demo"/>');
+		//document.write('<div class="title"><h4>'+relatedpoststitle+"</h4></div>");
+	document.write('<div class="owl-carousel owl-theme" id="owl-demo"/>');
 	while(n<relatedTitles.length&&n<20&&n<maxresults){
 		document.write('<div class="item-img"><a ');
 		if(n!=0)
 			document.write("");
 		else document.write('"');
-		document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]+'"><img style="width:230px;height:160px;" alt="'+relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
+		//document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]+'"><img style="width:230px;height:160px;" alt="'+relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
+		document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]+'"><img style="" alt="'+relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
 		n++;
 		if(r<relatedTitles.length-1){
 			r++
