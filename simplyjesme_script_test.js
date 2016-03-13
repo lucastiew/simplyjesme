@@ -139,7 +139,7 @@ function printRelatedLabels_thumbs(e){
 			document.write("");
 		else document.write('"');
 		//document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]+'"><img style="width:230px;height:160px;" alt="'+relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
-		document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]++relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
+		document.write(' href="'+relatedUrls[r]+'" title="'+relatedTitles[r]+'"><img style="" alt="'+relatedTitles[r]+'" title="'+relatedTitles[r]+'" src="'+thumburl[r].replace("/s72-c/","/s290-c/")+'"/></a><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></div>');
 		n++;
 		if(r<relatedTitles.length-1){
 			r++
@@ -168,7 +168,7 @@ $(document).ready(function() {
     items : 3,
     itemsDesktop : [1200,3],
     itemsDesktopSmall : [980,2],
-    itemsMobile : [720,2]
+    itemsMobile : [480,1]
   });
 });
 
