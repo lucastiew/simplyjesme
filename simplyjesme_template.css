@@ -1516,7 +1516,8 @@ padding: 10px 25px 0px;
 }
 .author-meta .author-body p{
   color: #F8F8F8;
-  font-size: 16px; 
+  font-size: 16px;
+  line-height: 1;
 }
 .author-body .author-body_img {
   float:left;
