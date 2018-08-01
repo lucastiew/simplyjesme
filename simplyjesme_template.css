@@ -1,6 +1,6 @@
 body#layout .nav-collapse,.no-image,.pagenavi .pages,#navbar,.date-header,.feed-links,.post-location,.post-share-buttons,.post-icons{display: none !important;}
 .section,.widget,.widget-content,.widget ul,body,h1,h2,h3,h4,h5,ul,a,p,span,img,dd{margin:0;padding:0;list-style:none;text-decoration:none;border:none;outline:none}
-.widget li,li {list-style:none;}
+.widget li,li {list-style:disc;}
 body#layout #content {float:left;width:600px;margin-left:30px}
 body#layout #side-bar {float:right;width:300px;}
 #column1,#column2,#column3 {float:left}
@@ -151,7 +151,7 @@ a.text-success:hover,a.text-success:focus{color:#356635}
 .page-header{padding-bottom:9px;margin:20px 0 30px;border-bottom:1px solid #eee}
 ul,ol{padding:0;margin:0 0 10px 25px}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0}
-li{line-height:20px}
+li{line-height:1.5em; margin-left: 1em;}
 ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
 ul.inline,ol.inline{margin-left:0;list-style:none}
 ul.inline>li,ol.inline>li{display:inline-block;*display:inline;*zoom:1;padding-left:5px;padding-right:5px}
